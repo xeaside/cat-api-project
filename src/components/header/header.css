@@ -1,0 +1,47 @@
+.navbar {
+  margin: -10px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #191919;
+  align-items: center;
+  height: 100px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.navbarButtons {
+  margin: 100px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: color 0.7s;
+  padding:25px;
+  
+}
+
+body {
+  background-color: #191919;
+  width: 1880px;
+}
+
+.logoText {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  margin: 100px;
+}
+
+a:hover{
+  color:  #00ffd8 ;
+}
+

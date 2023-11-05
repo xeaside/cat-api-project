@@ -1,0 +1,115 @@
+.registrationPlace{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+
+}
+.registrationTitle{
+    margin-top: -50px;
+    margin-bottom: 50px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+
+}
+.registrationForm{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    
+
+}
+
+.userNameInputText{
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    margin-left: 10px;
+
+ 
+   
+   
+    
+
+}
+
+.welcomeUser{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+   
+}
+
+.userNameInput{
+    border: none;
+    border-radius: 12px;
+    background-color: #191919;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-right: 10px;
+   outline: 0;
+   outline-offset: 0;
+  padding-left: 30px;
+}
+
+
+
+.submitButton{
+    border: none;
+    color: white;
+    background-color: #191919;
+    transition: background-color 0.7s;
+    transition: color 0.7s;
+    border-radius: 12px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.submitButton:hover{
+    background-color: #33cc31;
+    color: #191919;
+}
+
+.exitButton{
+    border: none;
+    color: white;
+    background-color: #191919;
+    transition: background-color 0.7s;
+    transition: color 0.7s;
+    border-radius: 12px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    /* margin-left: 25px; */
+    margin-top: 25px;
+}
+
+.exitButton:hover{
+    color: #191919;
+    background-color: #cc3131;
+}
+
+.welcomePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}

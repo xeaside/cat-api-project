@@ -1,0 +1,119 @@
+.cssload-container {
+  width: 0px;
+  height: 100px;
+  margin-top: 28px;
+}
+
+.cssload-speeding-wheel {
+  width: 35px;
+  height: 35px;
+  margin-left: 25px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  animation: cssload-spin 425ms infinite linear;
+  -o-animation: cssload-spin 425ms infinite linear;
+  -ms-animation: cssload-spin 425ms infinite linear;
+  -webkit-animation: cssload-spin 425ms infinite linear;
+  -moz-animation: cssload-spin 425ms infinite linear;
+}
+
+@keyframes cssload-spin {
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes cssload-spin {
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes cssload-spin {
+  100% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes cssload-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes cssload-spin {
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.requestPos {
+  width: 1890px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.requestButtonPos {
+  display: flex;
+  margin-bottom: 350px;
+
+
+}
+.requestButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  border: none;
+  color: #191919;
+  background-color: #00ffd8;
+  padding: 15px 32px;
+  transition: background-color 0.7s;
+  transition: color 0.7s;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+.requestButton:hover {
+  background-color: #191919;
+  color: white;
+}
+
+.requestText {
+  padding: 100px;
+  background-color: black;
+  border-radius: 12px;
+  height: 250px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.requestImage {
+  height: 450px;
+  width: 450px;
+  border-radius: 12px;
+  margin-left: 100px;
+}
+
+
+	
+
