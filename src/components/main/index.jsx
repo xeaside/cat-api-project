@@ -4,7 +4,6 @@ import Chat from "../chat";
 import Cat from "../cat-api";
 import Registration from "../registration/registration";
 
-
 const Main = () => {
   return (
     <div>
@@ -12,8 +11,6 @@ const Main = () => {
         <Route exact path="/" component={Cat} />
         <Route path="/chat" component={Chat} />
         <Route path="/registration" component={Registration} />
-      
-
       </Switch>
     </div>
   );
